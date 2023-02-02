@@ -1,13 +1,11 @@
 <script>
 export default {
-  name: "AppMain",
+  name: "AboutUs",
 };
 </script>
 
 <template>
-  <main>
-    <router-view></router-view>
-  </main>
+  <h1>abo</h1>
 </template>
 
 <style lang="scss" scoped></style>
