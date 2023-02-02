@@ -14,7 +14,7 @@ export default {
 
 <template>
   <div class="card">
-    <img v-if="data.cover_image" :src="data.cover_image" class="card-img-top" :alt="data.title" />
+    <img v-if="data.image_url" :src="data.image_url" class="card-img-top" :alt="data.title" />
     <div class="card-body">
       <h5 class="card-title">{{ data.title }}</h5>
       <p class="card-text">
@@ -28,4 +28,4 @@ export default {
   </div>
 </template>
 
-<style></style>
+<style lang="scss" scoped></style>

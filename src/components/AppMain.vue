@@ -25,10 +25,12 @@ export default {
 
 <template>
   <main>
-    <div v-for="project in projects">
-      <AppCard :data="project" />
+    <div class="row">
+      <div class="col" v-for="project in projects">
+        <AppCard :data="project" />
+      </div>
     </div>
   </main>
 </template>
 
-<style></style>
+<style lang="scss" scoped></style>
